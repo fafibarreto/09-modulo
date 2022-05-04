@@ -3,7 +3,7 @@
 }
 
 body {
-    background: rgb(251, 185, 222);
+    background: rgb(249, 249, 249);
     background: linear-gradient(
       112deg, 
       rgba(251, 185, 222, 1) 0%, 
@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
+    color: black;
   }
 
 
@@ -116,7 +117,7 @@ body {
   
   .content-textleft, 
   .content-textright{
-    color: white;
+    color: rgb(0, 0, 0);
     width:100%;
     padding: 0 50px;
     font-size: 60px, 5vw;
@@ -166,16 +167,51 @@ body {
 }
 
 /*Tablet */
-@media screen ( min-width:600px) and (max-device-width: 900px)
-        .container{
-        font-size:3em;
-        }   
-    }
+/* @media screen and (min-width:600px) and (max-device-width: 900px) {
+        .imagem {
+          margin-top: 100px;
+        }
+    } */
 
     /*Smartphone */
-@media screen (min-width: 480px) {
-       .container { color: red;}
-       .imagem { width:600px; } 
+@media screen and (min-width: 600px) and (max-device-width: 900px) {
+       .container { 
+         background-color: red;
+         
+        }
 
-    }
+        .active {
+          list-style: none;
+          display: inline-grid;
+          color: rgb(0, 0, 0);
+          margin-left: 10px;
+          padding: -3px;
+        }
+
+        .active1 {
+          color: black;
+          display: initial;
+          
+        }
+
+       .imagem { 
+         /* width:600px;  */
+         margin-top: 200px;
+         color: red;
+        }  
+        .sapato {
+          margin-top:100px;
+        }
+
+        .social-media {
+          margin-top: -200px;
+          color: black;
+        }
+        .pre-order {
+          border-radius: 60px;
+          color: black;
+        }
+
+      }
+    
 
