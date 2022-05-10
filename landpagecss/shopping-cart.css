@@ -72,10 +72,10 @@ body {
           .menu1{
             color: black;
             border-radius: 8px;
-            display: inline;
+            display: flex;
             text-decoration:none; 
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            background-color: #f5845e;
+            font-family: 'Poppins', sans-serif;;
+            /* background-color: #f5845e; */
             padding: 20px 40px;
             margin: 20px;
         }
