@@ -15,8 +15,6 @@
     justify-content: center;
     font-family: 'Poppins', sans-serif;
   }
-
-
 .navbar{
   display: flex;
   align-items: center;
@@ -31,7 +29,7 @@ nav ul{
   display: inline-block;
   list-style-type: none; 
 }
-nav ul li{
+nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
@@ -45,6 +43,7 @@ a{
   margin:auto;
   padding-left: 25px;
   padding-right: 25px;
+  
 }
 .row{
   display: flex;
