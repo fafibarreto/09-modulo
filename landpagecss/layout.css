@@ -1,19 +1,14 @@
   *{
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      box-sizing: border-box;   
   }
   body {
-    background: rgb(251, 185, 222);
+    font-family: 'Poppins', sans-serif;
     background: linear-gradient(
       112deg, 
       rgba(251, 185, 222, 1) 0%, 
-      rgba(139, 247, 249, 1) 100%);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
+      rgba(139, 247, 249, 1) 100%); 
   }
 .navbar{
   display: flex;
@@ -47,9 +42,23 @@ a{
 }
 .row{
   display: flex;
- /*  align-items: center; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-around; */
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-1{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img{
+  max-width:100%;
+  padding: 50px 0;
+}
+.col-2 h1{
+  font-size: 40px;
+  line-height: 40px;
+  margin: 25px 0;
+
 }
 .btn{
   display: inline-block;
@@ -58,21 +67,18 @@ a{
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
-  transition: background 0.5s;
+transition: background 5s; // background do hoover nao esta funcionado//
 }
 .btn:hoover{
-  background: #563434;
+  background: #563434; // hoover nao esta funciando//
 }
-
+.header .row{
+  margin-top: 70px;
+}
 a{
  text-decoration: none;
 }
 
-
-.header .row{
-  margin-top: 70px;
-
-}
 
 
 
