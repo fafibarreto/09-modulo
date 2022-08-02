@@ -9,8 +9,7 @@
    <link rel="stylesheet"  href="../landpagecss/layout.css">
     <link rel="stylesheet" href="../landpagehtml/account.html"> 
     <link rel="stylesheet" href="../landpagehtml/products.html">
-
-
+    <link rel="stylesheet" href="../landpagecss/login.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,18 +41,50 @@
         </div>
         </div>
 
-    <div class="row">
-        <div class="col-1">
-            <h1>The Best of The Year! <br>It's Coming <br> A New Style
-            </h1>
-            <a href="../landpagehtml/products.html" class="btn">Explore Now &#8594;</a>
+    <div class="container">
+    <div class="card">
+        <div class="inner-box" id="card">
+            <div class="card-front">
+             <h2>Login</h2> 
+                <form>
+                    <input type="email" class="input-box" placeholder="Your Email " required>
+                    <input type="password" class="input-box" placeholder="Password" required>
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <input type="checkbox"><span>Remember Me</span>
+                </form>
+                <button type="button" class="btn" onclick="openRegister()">I'm new here</button>
+                <a href="">Forgot Password</a>
+            </div>
+            <div class="card-back">
+            <h2>Register</h2>
+            <form>
+                <input type="text" class="input-box" placeholder="Your Name" required>
+                <input type="email" class="input-box" placeholder="Your Email " required>
+                <input type="password" class="input-box" placeholder="Password" required>
+                <button type="submit" class="submit-btn">Submit</button>
+                <input type="checkbox"><span>Remember Me</span>
+            </form>
+            <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+            <a href="">Forgot Password</a>
+            </div>
         </div>
-        <div class="col-2">
-            <img src="../img/manrunning.png" alt="manrunning" width="300px">
+        </div>          
         </div>
-        </div>
+        </div> 
 
+        <script>
 
+            var card = document.getElementById("card");
 
+            function openRegister(){
+                card.style.transform = "rotateY(-180deg)";
+            }
+            function openLogin(){
+                card.style.transform = "rotateY(0deg)";
+            }
 
+        </script>
+
+</body>
+</html>
 

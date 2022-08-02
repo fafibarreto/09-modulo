@@ -135,8 +135,36 @@ svg{
   margin-right: 15px;
 }
 
-    
-      
+  /*Tablet ---- more 700 screen size*/
+  @media only screen and( min-width:650px) and(max-device-width: 1200px){
+    .container{
+      font-size: 80px;
+    }
+  }
+         
+      /*Smartphone --- less than 600 screen size---- */
+      @media only screen and(max-width:460px) {
+        .row{
+          text-align: center;
+        }
+        .col-2, .col-3, .col-4{
+          flex-basis: 100%;
+        }
+        .single-product .row{
+          text-align: left;
+        }
+        .single-product .col-2{
+          padding: 20px 0;
+        }
+        .single-product h1{
+          font-size: 26px;
+          line-height: 32px;
+        }
+        .cart-info p{
+          display: none;
+        }
+      }
+        
         /*Smartphone --- less than 600 screen size---- */
         @media only screen and(max-width:460px) {
           .row{

@@ -25,7 +25,7 @@ nav ul{
   list-style-type: none; 
 }
 nav ul li {
-  display: inline-block;
+  display:inline-flex ;
   margin-right: 20px;
 }
 a{
@@ -78,6 +78,30 @@ transition: background 5s; // background do hoover nao esta funcionado//
 a{
  text-decoration: none;
 }
+
+/* Smartphone */
+@media screen and (max-width:425px)
+.container 
+.menuItems
+.nav{
+  margin: auto;
+  width: 90%;
+}
+
+/*Tablet */
+@media screen and (min-width: 780px) 
+.container 
+.menuItems {
+  margin: auto;
+  width: 90%;
+  }
+
+   
+
+
+
+
+
 
 
 
