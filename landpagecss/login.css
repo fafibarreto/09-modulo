@@ -12,6 +12,7 @@ body{
   padding-bottom: 0;
 
 }
+
 .navbar{
     display: flex;
     align-items: center;
@@ -61,8 +62,8 @@ body{
   font-family: sans-serif;
     color: #fff;
      display: flex; 
-    align-items: center;
-    justify-content: center; 
+    /* align-items: center; */
+    /* justify-content: center;  */
 }
 
 .card{

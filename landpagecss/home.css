@@ -1,21 +1,24 @@
   *{
       margin: 0;
       padding: 0;
-      box-sizing: border-box;   
+      box-sizing: border-box;  
+      font-family: 'Poppins', sans-serif; 
   }
   body {
-    font-family: 'Poppins', sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
     background: linear-gradient(146deg, #FFE53B 6%, #FF2525 100%);
-  }
-  
+    padding-bottom: 0;
+  } 
+ 
+    text-align: right;
   
 .navbar{
   display: flex;
   align-items: center;
   padding: 20px;
+  
 }
 
 nav{
@@ -41,6 +44,8 @@ a{
   margin:auto;
   padding-left: 25px;
   padding-right: 25px;
+  display: flex;
+  justify-content: flex-end;
   
 }
 .row{
