@@ -6,12 +6,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(112deg, 
-  rgba(251, 185, 222, 1) 0%, 
-  rgba(139, 247, 249, 1) 100%); 
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(146deg, #FFE53B 6%, #FF2525 100%);
+  padding-bottom: 0;
 }
 .navbar{
 display: flex;
@@ -121,6 +120,4 @@ justify-content: space-around;
 
 
 
- /*Smartphone --- less than 600 screen size---- */
- @media only screen and(max-width:460px) {
-  
+ 

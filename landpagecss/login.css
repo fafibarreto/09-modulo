@@ -1,13 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
   }
 
 body{
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(146deg, #FFE53B 6%, #FF2525 100%);
+  padding-bottom: 0;
 
 }
 .navbar{
@@ -65,7 +67,7 @@ body{
 
 .card{
     width: 350px;
-    height: 500px;
+    height: 480px;
     background: #fff;
     box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.30)
     perspective: 1000px;
@@ -85,10 +87,8 @@ body{
         height: 100%;
          background-position: center; 
          color:#000000; 
-         padding: 0 10px;
-         background-size: cover;  
-        background-image: linear-gradient(rgba(235, 209, 224, 0.8), rgba(139, 247, 249, 0.8)),
-        url("../../09-modulo/img/running1.png");
+         padding: 0 10px;  
+        background-image: linear-gradient(40deg, #FFE53B 32%, #FF2525 92%);
         padding: 55px;
         box-sizing: border-box;
         backface-visibility: hidden;
@@ -166,11 +166,27 @@ span{
     margin-top:-5px;   
 }
 
-/*Tablet ---- more 700 screen size*/
+Tablet ---- more 700 screen size
 @media{ max-width: 768px;
-  
-
 }
+
+
+
+@media ( max-width:390px){
+  .navbar{
+    padding:20px 0 0 0;
+  }
+
+  .navbar img{
+    display: none;
+  }
+
+  nav ul li{
+    margin-right: 10px;
+  }
+}
+
+
 
 
 
